@@ -1,0 +1,253 @@
+/* General Styling */
+.app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #1a73e8; /* Blue theme */
+}
+
+/* Tabs Styling */
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #eceef1;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.tabs button.active {
+  background-color: #1a73e8;
+  color: white;
+}
+
+.tabs button:hover {
+  background-color: #1a73e8;
+}
+
+/* Tab Content */
+.tab-content {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Attendance Details */
+.attendance-details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.attendance-details th, .attendance-details td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.attendance-details th {
+  background-color: #f2f2f2;
+}
+
+.attendance-details input {
+  width: 80px;
+  text-align: center;
+  font-size: 14px; /* Improved font size */
+}
+
+/* Career Objective */
+.career-objective {
+  margin-bottom: 20px;
+}
+
+.career-objective label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px; /* Improved font size */
+}
+
+.career-objective input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px; /* Improved font size */
+}
+
+/* Edit Button */
+.edit-button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.edit-button:hover {
+  background-color: #1557b0;
+}
+
+/* Skill Development Styling */
+.skill-development {
+  margin-top: 20px;
+}
+
+.module {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #fff; /* Removed gray background */
+}
+
+.module h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  font-size: 16px; /* Improved font size */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form label {
+  font-weight: bold;
+  font-size: 14px; /* Improved font size */
+}
+
+.form input, .form select, .form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px; /* Improved font size */
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+.list {
+  margin-top: 20px;
+}
+
+.item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.summary {
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px; /* Improved font size */
+}
+
+.arrow {
+  font-size: 14px;
+}
+
+.details {
+  margin-top: 10px;
+  font-size: 14px; /* Improved font size */
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.small-button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.small-button:hover {
+  background-color: #1557b0;
+}
+
+/* Course Tables */
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.course-table th, .course-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-size: 14px; /* Improved font size */
+}
+
+.course-table th {
+  background-color: #1a73e8;
+  color: white;
+}
+
+/* Add Button */
+.add-button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.add-button:hover {
+  background-color: #1557b0;
+}
+
+/* CGPA and CGP Boxes */
+.cgpa-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cgp-box, .cgpa-box {
+  display: flex;
+  align-items: center;
+}
+
+.cgp-box label, .cgpa-box label {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 14px; /* Improved font size */
+}
+
+.cgp-box input, .cgpa-box input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px; /* Improved font size */
+}
